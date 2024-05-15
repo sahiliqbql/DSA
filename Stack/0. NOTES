@@ -1,0 +1,8 @@
+performe in LIFO (last in first out) order ,
+         or FILO (first in last out);
+
+
+push()
+pop()
+peek(index)
+isEmptyisFull()
