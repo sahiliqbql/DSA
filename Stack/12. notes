@@ -1,0 +1,17 @@
+notation to write an expression
+
+1) infix       a+b  ,  a-b
+2) prefix      +ab  ,  -ab
+3) postfix     ab+  ,  ab-
+
+q) infix : a*(b+c)*d
+ans)
+
+postfix: (a * bc+ )* d  -----> left to right
+       = (abc+*) * d
+       = abc+*d*
+
+prefix: (a * +bc) * d ----> left to write
+      = *a+bc * d
+      = **a+bcd
+

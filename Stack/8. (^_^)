@@ -1,0 +1,6 @@
+stack in Linked list
+
+top = head;
+
+top->null;
+
