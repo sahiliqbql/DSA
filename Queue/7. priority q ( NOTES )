@@ -1,0 +1,18 @@
+
+higher priority ---> processed first 
+    same priority ----> processed according to order they added
+
+types 2 : 
+    1) ascending   ----> delete in ascending order
+    2) descending 
+
+implement : 2 way to implement
+                                           f       r
+    1) normal insertion     -------------> 5 4 2 7 9
+       delete according to priority    --> 5 4 7 9 .  // 2 was deleted
+                                           f     r
+
+    2) special insertion   --> while inserting in a sorted manner
+       delete normally
+
+note* (1) is more time consuming we should use (2)
