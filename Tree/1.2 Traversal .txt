@@ -1,0 +1,12 @@
+3 types:
+
+1) preorder traversal:   (root) --> left subtree --> right subtree
+
+2) postorder traversal:   left subtree --> right subtree --> (root)
+
+3) in-order traversal:   left subtree --> (root) --> right subtree
+
+Diagram : google
+
+trick* to find traversal : https://drive.google.com/file/d/18HKp95xxv4iVgyvTxDl_hM-Bi9J5s09V/view?usp=drivesdk
+

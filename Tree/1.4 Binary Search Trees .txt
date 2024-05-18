@@ -1,0 +1,11 @@
+
+1) It is a type of binary tree.
+2) All nodes of the left subtree are lesser than the node itself.
+3) All nodes of the right subtree are greater than the node itself.
+4) Left and Right subtrees are also binary trees.
+5) There are no duplicate nodes.
+
+6) the InOrder traversal of a binary search tree gives an ascending sorted array.
+
+note* min element = InOrder pre
+      max element = InOrder post
