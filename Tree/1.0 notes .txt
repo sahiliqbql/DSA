@@ -1,0 +1,47 @@
+TREE:  it is non-lenear 
+       use - ideal for represnting hierarchical data.
+       n nodes = (n-1) edges
+
+    1) Root : topest node
+
+    2) parents: node which connect to the child
+
+    3) child: node which connect to the parents
+
+    4) Leaf / external node: nodes with no child
+
+    5) internal node: node with atleast one child
+
+    6) Depth: no of edges from Root
+
+    7) Height: no of edges from node to deepest Leaf
+
+    8) Sibling: nodes belonging to the same parents
+
+    9) ancestor / Descendent: any other node on the path from the node to the Root
+                            or A node that is connected to all lower-level nodes is called an "ancestor". 
+                                The connected lower-level nodes are "descendants" of the ancestor node.
+
+Binary Tree: Binary Tree is a Tree which has at most 2 child for all the nodes.
+
+    1) Full / Strict: all node has 0 or 2 children
+
+    2) Perfect Binary tree : internal nodes have 2 children
+                            all Leaf nodes on same level
+                        
+    3) Complete Binary tree : all the levels are completely filled except possibly the last level 
+                            and the last level has all keys as left as possible.
+
+    4) Degenerate / pathological tree : all parent node has exactly 1 child
+
+    5) Skewed Binary Tree: A skewed binary tree is a pathological/degenerate tree 
+                        in which the tree is either dominated by the left nodes or the right nodes.
+                        i) left-skewed binary tree
+                        ii) right-skewed binary tree
+
+Represnting of Binary Tree:
+
+    1) Array Represnting : can't insert element after Array was Full
+                           Diagram --> google
+
+    2) Linked represnting : Diagram --> google
