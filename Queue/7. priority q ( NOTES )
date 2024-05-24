@@ -1,3 +1,6 @@
+What is a priority queue?
+A Priority Queue is a data structure - 
+      where elements are processed based on their size
 
 higher priority ---> processed first 
     same priority ----> processed according to order they added
