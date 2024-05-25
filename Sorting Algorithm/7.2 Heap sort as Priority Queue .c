@@ -1,3 +1,4 @@
+
 // out of syllabus (may be)
 
 #include <stdio.h>
