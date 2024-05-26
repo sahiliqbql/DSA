@@ -1,0 +1,47 @@
+Graphs are an example of non-linear data structures. 
+A graph is a collection of nodes connected through edges. 
+A graph G = (V, E) is technically a collection of vertices(nodes) and edges connecting these vertices. 
+
+Types of Edges:
+1) Directed Edge - A directed edge is an edge connecting two nodes but strictly defines the way it is connected from and to.
+2) Undirected Edge - An undirected edge is an edge connecting two nodes from the way
+
+Types of Graphs:
+1) Directed graph - Directed graphs are graphs having each of its edges directed.
+2) Undirected graph - Undirected graphs are graphs having each of its edges undirected.
+
+Indegree and Outdegree of a node:
+indegree of a node is the number of edges coming to the node,
+and outdegree of a node is the number of edges originating from that node.
+
+Ways to represent a graph:
+1) Adjacency List - Mark the nodes with their neighbours
+2) Adjacency Matrix - Aij = 1, if there is an edge between i and j, 0 otherwise.
+3) Edge Set - Store the pair of nodes/vertices connected with an edge. Example: {(0, 1), (0, 4), (1, 4)}.
+4) (Other) implementations to represent a graph also exist. 
+   For example, Compact list representation, cost adjacency list, cost adjacency matrix, etc.
+    
+    diagram* link : https://www.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-84/
+
+Graph Traversal:
+process of visiting (checking and/or updating) each vertex (node) in a graph.
+algorithms that are used for traversing a graph. They are:
+    1) Breadth-First Search (BFS)
+    2) Depth First Search (DFS)
+
+
+Subgraphs:
+A subgraph of a graph G is a graph whose vertices and edges are subsets of the original graph G. 
+
+Complete Graphs:
+A complete graph is a simple undirected graph in which every pair of distinct vertices is connected by a unique edge.
+
+Spanning Trees:
+As we learnt, a subgraph of a graph G is a graph whose vertices and edges are subsets of the original graph G. 
+Hence, a connected subgraph ‘S’ of a graph G (V, E) is said to be a spanning tree of the graph if and only if:
+1) All the vertices of G are present in S,
+2) No. of edges in S should be |V|-1, where |V| represents the number of vertices.  
+
+Cost of a Spanning Tree:
+The cost of the spanning tree is the sum of the weights of all the edges in the tree.
+
