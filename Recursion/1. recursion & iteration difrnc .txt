@@ -1,0 +1,28 @@
+(R) A program is called recursive when an entity calls itself. 
+(I) A program is called iterative when there is a loop (or repetition).
+
+Code Size : (R)	Smaller code size	
+            (I) Larger Code Size.
+
+Stack : (R)	When a recursive function is called, the computer uses a stack 
+            to remember which function call it is currently processing. 
+            Each time the function is called, a new stack frame is created and added to the top of the stack.
+
+            This frame contains the function's local variables, parameters and the return address.
+        (I) Stack is not used.
+
+Time Complexity	: (R) Very high(generally exponential) time complexity.	
+                  (I) Relatively lower time complexity(generally polynomial-logarithmic).
+
+Space Complexity: (R) The space complexity is higher than iterations.              
+                  (I) Space complexity is lower.
+
+Memory : (R) Recursion uses more memory as compared to iteration.
+         (I) Iteration uses less memory as compared to recursion.
+
+
+Speed : (R)	Execution is slow since it has the overhead of maintaining and updating the stack.
+        (I) Normally, it is faster than recursion as it doesn’t utilize the stack.
+
+
+and more ...

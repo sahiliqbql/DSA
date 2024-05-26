@@ -1,0 +1,12 @@
+1) Direct Recursion : Direct recursion is a type of recursion in which a function calls itself directly.
+
+2) Indirect Recursion : Indirect recursion is a type of recursion in which two or more functions 
+                        call each other in a circular manner to achieve a common goal.
+                        A --> B --> A
+
+3) Tail Recursion : Tail recursion is defined as a recursive function in which the recursive call 
+                    is the last statement that is executed by the function. 
+                    So basically nothing is left to execute after the recursion call.
+
+4) Non Tail/ Head Recursion : While non-tail recursion involves other operations after the recursive call.
+
