@@ -1,0 +1,16 @@
+Row Major Order: Row major ordering assigns successive elements,
+                 moving across the rows and then down the next row, 
+                 to successive memory locations. 
+                 In simple language, the elements of an array are stored in a Row-Wise fashion.
+
+Column Major Order: If elements of an array are stored in a column-major fashion 
+                    means moving across the column and then to the next column 
+                    then it’s in column-major order.
+
+
+ADDRESS: in A[m][n] (B.A = base address);
+
+Row major: A[i][j] = B.A + (i*n + j) * size of data type
+
+Column major: A[i][j] = B.A + (j*m + i) * size of data type
+
