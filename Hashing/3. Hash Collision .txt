@@ -1,0 +1,27 @@
+What is a Hash Collision?
+A hash collision occurs when two different keys map to the same index in a hash table. 
+This can happen even with a good hash function, especially if the hash table 
+is full or the keys are similar.
+
+
+
+Causes of Hash Collisions:
+1) Poor Hash Function: A hash function that does not distribute keys evenly
+                       across the hash table can lead to more collisions.
+2) High Load Factor: A high load factor (ratio of keys to hash table size) 
+                     increases the probability of collisions.
+3) Similar Keys: Keys that are similar in value or structure are more likely to collide.
+
+
+
+Collision Resolution Techniques :
+There are two types of collision resolution techniques:
+
+1} Open Addressing:
+a) Linear Probing: Search for an empty slot sequentially
+b) Quadratic Probing: Search for an empty slot using a quadratic function
+
+2} Closed Addressing:
+a) Chaining: Store colliding keys in a linked list or binary search tree at each index
+b) Cuckoo Hashing: Use multiple hash functions to distribute keys
+(add in the same block using a linked list)

@@ -1,0 +1,20 @@
+What is Hashing in Data Structure?
+
+Hashing is a technique used in data structures to store and retrieve data efficiently. 
+It involves using a hash function to map data items to a 
+fixed-size array which is called a hash table.
+
+ex:
+    12 , address of 12 is 12%10 = 2 
+    19 , address of 19 is 19%10 = 9    like this
+
+
+1) Hash Function: You provide your data items into the hash function.
+2) Hash Code: The hash function crunches the data and give a unique hash code.
+3) Hash Table: The hash code then points you to a specific location within the hash table.
+
+
+Hash Table in Data Structure :
+A hash table is also known as a hash map. It is a data structure that stores key-value pairs. 
+It uses a hash function to map keys to a fixed-size array, called a hash table. 
+This allows in faster search, insertion, and deletion operations.

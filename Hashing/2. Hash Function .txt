@@ -1,0 +1,14 @@
+Hash Function :
+
+The hash function is a function that takes a key and returns an index into the hash table. 
+The goal of a hash function is to distribute keys evenly across the hash table, 
+and minimizing collisions (when two keys map to the same index).
+
+
+
+Common hash functions include:
+
+1) Division Method: Key % Hash Table Size
+2) Multiplication Method: (Key * Constant) % Hash Table Size
+3) Universal Hashing: A family of hash functions designed to minimize collisions
+
