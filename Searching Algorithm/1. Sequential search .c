@@ -19,3 +19,4 @@ int main(){
 }
 
 // time complexity O(1) to O(n)    avg = O(1)+O(n) / 2
+// avg = (1+2+3...+n)/n  = n(n+1)/2n = n+1/2
